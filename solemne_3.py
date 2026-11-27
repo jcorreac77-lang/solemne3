@@ -127,7 +127,7 @@ def pagina_explorar():
                 st.pyplot(fig)
                 st.caption(
                     f"Hallazgo: El grupo con mayor promedio en {stat_elegida} dentro de la selección es "
-                    f"'{etiquetas.iloc[-1]}' con {resumen.values[-1]:.1f} puntos base."
+                    f"'{etiquetas[-1]}' con {resumen.values[-1]:.1f} puntos base."
                 )
             else:
                 st.warning("No hay Pokémon para esa opción en el gráfico.")
